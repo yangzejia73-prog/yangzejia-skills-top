@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "repository_version": "0.1.0",
+  "skills": [
+    {"name":"topic-research","path":"skills/topic-research","version":"0.1.0","risk_level":"low","network":false,"shell":false,"filesystem_write":false},
+    {"name":"source-backed-outline","path":"skills/source-backed-outline","version":"0.1.0","risk_level":"low","network":false,"shell":false,"filesystem_write":false},
+    {"name":"xiaohongshu-draft","path":"skills/xiaohongshu-draft","version":"0.1.0","risk_level":"low","network":false,"shell":false,"filesystem_write":false},
+    {"name":"wechat-article","path":"skills/wechat-article","version":"0.1.0","risk_level":"low","network":false,"shell":false,"filesystem_write":false},
+    {"name":"content-repurpose","path":"skills/content-repurpose","version":"0.1.0","risk_level":"low","network":false,"shell":false,"filesystem_write":false},
+    {"name":"content-risk-review","path":"skills/content-risk-review","version":"0.1.0","risk_level":"low","network":false,"shell":false,"filesystem_write":false}
+  ]
+}

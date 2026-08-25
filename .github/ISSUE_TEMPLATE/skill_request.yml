@@ -1,0 +1,34 @@
+name: Skill request
+description: Propose a creator workflow or improvement grounded in a real use case.
+title: "[Skill request]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Creator problem
+      description: What real task is difficult today, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: input-output
+    attributes:
+      label: Example input and expected output
+      description: Remove private or copyrighted material you cannot share.
+    validations:
+      required: true
+  - type: checkboxes
+    id: capabilities
+    attributes:
+      label: Possible capabilities
+      options:
+        - label: Network access
+        - label: Shell execution
+        - label: Filesystem write
+        - label: Credential or account access
+        - label: Publishing or external side effects
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and failure cases
+      description: Include factual, privacy, copyright, safety, and automation risks.

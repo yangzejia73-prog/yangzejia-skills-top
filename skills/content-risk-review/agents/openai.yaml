@@ -1,0 +1,3 @@
+interface:
+  display_name: "Content Risk Review"
+  short_description: "Review creator content before publishing"
