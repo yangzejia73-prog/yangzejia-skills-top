@@ -26,6 +26,8 @@ AI 可以加快创作，也可能带来虚构引用、事实失真、过度营�
 不要把推测写成真实热度数据。
 ```
 
+首次使用建议从[完整示例](examples/creator-workflow/README.md)开始。如果你是自媒体创作者，欢迎参加[早期试用计划](docs/PILOT.md)，用 GitHub Issue 提交可公开验证的反馈。
+
 ## 设计原则
 
 - 不虚构来源、数据、案例、专家观点或平台规则。
@@ -52,6 +54,8 @@ python scripts/validate_repository.py
 ## 状态
 
 当前为 `v0.1.0` 初始公开版本。项目不声称已有下载量或广泛采用；使用反馈将通过 Issues、Pull Requests 和 Releases 公开记录。
+
+下一阶段工作见 [ROADMAP.md](ROADMAP.md)。维护指标只统计 GitHub 可验证记录，不把页面浏览、个人陈述或未公开反馈冒充采用数据。
 
 ## License
 
